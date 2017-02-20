@@ -1,0 +1,6 @@
+---
+- hosts: [all]
+  user:
+  become: yes
+  roles:
+    - zabbix-server
